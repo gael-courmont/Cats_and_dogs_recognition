@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="{{ url_for('static', path='/bootstrap.css') }}" rel="stylesheet">
+    </head>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <span class="navbar-text">
+                Dogs vs Cats
+            </span>
+        </nav>
+    </header>
+    <body>
+        <h1 class="text-center" > your animal is a : {{animal}} </h1>
+        <img class="rounded mx-auto d-block" src="{{ url_for('static', path='/image.png') }}" alt="FastAPI" />
+    </body>
+</html>
