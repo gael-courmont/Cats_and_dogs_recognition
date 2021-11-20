@@ -14,15 +14,15 @@ The train data is composed of 25 000 pictures. 12500 cats and 12500 dogs.
 ##Pytorch Model
 In the Cats_and_dog_pytorch notebook you can follow our step in selecting and testing model. The goal of that notebook is to build a from scratch model in the purpose to understand how convolutional network work and how to evaluate them.
 
-After that we also built a resnet50 model for production purpose. That model obtains an accuracy of 97% on validation data after a few training epoch. This model has been saved and is the one being used in our website page. (see later)
+After that we built a resnet50 model for production purpose. That model obtains an accuracy of 97% on validation data after a few training epoch. This model has been saved and is the one being used in our website page. (see later)
 
 In the end, we also tested data augmentation on our self-made model.
 
 ## Autogluon model
-In the dogcat_autogluon notebook we learned how to use an auto ml libraries to solve our problem. That was made during the first days of our project; it gave us knowledge about how to preprocess data, wich model architecture to choose, etc.
+In the dogcat_autogluon notebook we learned how to use an auto ml libraries to solve our problem. It gave us knowledge about how to preprocess data, wich model architecture to choose, etc.
 
 ## API and website page
-After realising our 2 research notebook we decided to push our model into some "production" environment. This is a website api, available at https://dogs-and-cats-recognition.herokuapp.com/. There you can post a picture and get the model prediction.
+After building our 2 research notebook we decided to push our model into a "production" environment. This is a website api, available at https://dogs-and-cats-recognition.herokuapp.com/. There you can post a picture and get the model prediction.
 
 The api is based on the FASTapi framework with jinja2template for html page.
 
