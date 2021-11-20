@@ -26,7 +26,7 @@ After building our 2 research notebook we decided to push our model into a "prod
 
 The api is based on the FASTapi framework with jinja2template for html page.
 
-We then use heroku to host our website. Because we used the free version of heroku the service can crash if there is too many request. This is due to the memory usage limit we have.
+We then used heroku to host our website. Because we used the free version of heroku the service can crash if there is too many request. This is due to the memory usage limit we have.
 
 ![Capture](https://user-images.githubusercontent.com/65913620/142732058-fd86800d-1aaa-49ae-8e7a-aa83fe354b4a.PNG)
 
